@@ -19,5 +19,11 @@ namespace Ert.Services
         public string FilePath(){
              throw new NotImplementedException();
         }
+
+        public string CreateFullFilename(string mfid, string cls, DateTime navdate, bool isZwa = false, string investor = null){
+            var filename = $"{mfid}_{cls}_{navdate.ToString("YYYYmmdd")}";
+            return filename;
+
+        }
     }
 }
