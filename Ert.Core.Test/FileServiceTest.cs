@@ -3,12 +3,12 @@ using Xunit;
 
 namespace Ert.Core.Test
 {
-    public class UnitTest1
+    public class FileServiceTest
     {
         [Fact]
         public void Test1()
         {
-            Assert.True(3 == 3);
+
         }
     }
 }
