@@ -1,5 +1,5 @@
 ﻿using System;
-namespace Ert.Services
+namespace Ert.Core.Services
 {
     public class EaCreationService
     {

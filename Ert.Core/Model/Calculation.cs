@@ -1,5 +1,5 @@
 ﻿using System;
-namespace Ert.Model
+namespace Ert.Core.Model
 {
     public class Calculation
     {

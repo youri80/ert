@@ -1,5 +1,5 @@
 ﻿using System;
-namespace standard.Model
+namespace Ert.Core.Model
 {
     public class Share
     {
