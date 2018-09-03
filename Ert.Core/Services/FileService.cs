@@ -26,9 +26,9 @@ namespace Ert.Core.Services
             var filename = $"{mfid}_{cls}_{navdate.ToString("yyyyMMdd")}";
 
             if (investor != null) {
-                filename = filename + $"_{investor}";
+                filename = $"{filename}_{investor}";
             }
-            return Path.Combine(DataDir, isZwa?"Zwa": String.Empty, filename);
+            return Path.Combine(isZwa?"Zwa": String.Empty, filename);
 
         }
     }
